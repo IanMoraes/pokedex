@@ -32,11 +32,11 @@ export default function Home({ pokemons }) {
           alt="pokeball"
         />
       </div>
-      <ul>
+      <div className={styles.pokemons_container}>
         {pokemons.map((pokemon) => (
           <Card key={pokemon.id} pokemon={pokemon}></Card>
         ))}
-      </ul>
+      </div>
     </>
   );
 }
