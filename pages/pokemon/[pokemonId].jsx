@@ -4,7 +4,7 @@ import Image from "next/image";
 import styles from "../../styles/Pokemon.module.css";
 import { useRouter } from "next/router";
 export const getStaticPaths = async (ctx) => {
-  const maxPokemons = 905;
+  const maxPokemons = 887;
   const api_url = `https://pokeapi.co/api/v2/pokemon/?limit=${maxPokemons}`;
 
   const res = await getData(api_url);

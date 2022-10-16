@@ -7,10 +7,16 @@
     margin-bottom: 2em;
     width: 23%;
     border-radius:1em;
-    border: 2px solid #e33d33;
     box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.5);
     background-color: #333;
     color: #FFF;
+    min-width: 200px;
+
+    background: rgba(51, 51, 51, 0.74);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(2.4px);
+    -webkit-backdrop-filter: blur(2.4px);
 
 }
 

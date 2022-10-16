@@ -6,10 +6,9 @@ const About = () => {
     <div className={styles.about}>
       <h1>Sobre o projeto</h1>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum et
-        obcaecati itaque molestiae voluptatibus, odio quibusdam aliquid numquam
-        aut impedit quod ipsam dolorum similique laboriosam maiores nobis at
-        nulla cupiditate!
+        Este é um pequeno projeto que fornece dados sobre pokémon. Foi
+        desenvolvido utilizando o framework Next.js visando explorar as
+        funcionalidades de Server Side Rendering.
       </p>
       <Image
         src="/images/charizard.png"
