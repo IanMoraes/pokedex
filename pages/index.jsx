@@ -5,7 +5,6 @@ import Card from "../components/Card";
 export const getStaticProps = async (ctx) => {
   const maxPokemons = 887;
   const api_url = `https://pokeapi.co/api/v2/pokemon/?limit=${maxPokemons}`;
-
   const res = await getData(api_url);
   const data = res.data.results;
   res.data.results.forEach((item, index) => {

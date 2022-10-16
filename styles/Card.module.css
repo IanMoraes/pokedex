@@ -20,6 +20,13 @@
 
 }
 
+
+@media (max-width: 600px) {
+    .card{
+        margin: 2em auto;
+    }
+  }
+
 .card .id{
     margin: 1em 0;
     background-color: #e33d33;

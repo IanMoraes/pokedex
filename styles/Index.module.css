@@ -1,10 +1,11 @@
 .container{
-    justify-content:center;
+    justify-content:space-between;
     align-items:center;
-    background-color:#000
-}
-.title_container{
+    background-color:#000;
 
+}
+
+.title_container{
     padding-top: 5em;
     display:flex;
     justify-content:center;
