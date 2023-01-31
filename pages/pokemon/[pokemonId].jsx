@@ -39,7 +39,7 @@ function Pokemon({ pokemon }) {
       <div className={styles.pokemon_container}>
         <h1 className={styles.title}>{pokemon.name}</h1>
         <Image
-          src={`https://cdn.traction.one/pokedex/pokemon/${pokemon.id}.png`}
+          src={`https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${pokemon.id}.png`}
           width="120"
           height="120"
           alt={`${pokemon.name}`}
